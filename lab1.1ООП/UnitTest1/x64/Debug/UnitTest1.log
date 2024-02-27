@@ -1,0 +1,5 @@
+﻿  UnitTest1.cpp
+     Creating library C:\Users\Admin\Desktop\ООП\lab1.1ООП\x64\Debug\UnitTest1.lib and object C:\Users\Admin\Desktop\ООП\lab1.1ООП\x64\Debug\UnitTest1.exp
+UnitTest1.obj : error LNK2019: unresolved external symbol "public: bool __cdecl IntRange::Init(int,int,int)" (?Init@IntRange@@QEAA_NHHH@Z) referenced in function "public: void __cdecl UnitTest1::UnitTest1::TestRangeCheckInvalid(void)" (?TestRangeCheckInvalid@UnitTest1@1@QEAAXXZ)
+UnitTest1.obj : error LNK2019: unresolved external symbol "public: bool __cdecl IntRange::rangeCheck(void)const " (?rangeCheck@IntRange@@QEBA_NXZ) referenced in function "public: void __cdecl UnitTest1::UnitTest1::TestRangeCheckInvalid(void)" (?TestRangeCheckInvalid@UnitTest1@1@QEAAXXZ)
+C:\Users\Admin\Desktop\ООП\lab1.1ООП\x64\Debug\UnitTest1.dll : fatal error LNK1120: 2 unresolved externals
